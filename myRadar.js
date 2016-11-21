@@ -1,10 +1,4 @@
 
-/*if (time = 9:45) {
-	main();
-} else {
-	//Keep Calm & Do Nothing, take some beer
-}
-*/
 if (confirm('Do you want to collect RFC data?')) {
     main();
 } else {
@@ -28,7 +22,6 @@ function main() {
 	for(var i = 0; i < criticalTicket.length; i++) {Ticket.push(criticalTicket[i]);}
 	for(var i = 0; i < warnTicket.length; i++) {Ticket.push(warnTicket[i]);}
 	for(var i = 0; i < warningTicket.length; i++) {Ticket.push(warningTicket[i]);}	
-
 	for(var i = 0; i < criticalTicketR.length; i++) {Ticket.push(criticalTicketR[i]);}
 	for(var i = 0; i < warnTicketR.length; i++) {Ticket.push(warnTicketR[i]);}
 	for(var i = 0; i < warningTicketR.length; i++) {Ticket.push(warningTicketR[i]);}
